@@ -1,0 +1,328 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(89, 213, 230);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contenedor {
+    width: 1280px;
+    margin: 0 auto;
+  }
+
+
+
+header{
+    background-color: rgb(255, 255, 255);
+    height: 220px;
+}
+
+#logo {
+    background-image: url(imagenes/logo\ png_Mesa\ de\ trabajo\ 1.png);
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 500px;
+    font-size: 0;
+    float:none;
+    margin: 0 auto;
+background-size: contain;
+
+    
+}
+
+nav {
+    width: 1280px;
+    float: right;
+    margin-top: 5px;
+}
+nav ul li {
+    list-style-type: none;
+    width: 252px;
+    background-color: rgb(0, 47, 255);
+    display: inline-block;
+}
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color:rgb(8, 8, 8);
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav ul li a:hover {
+    background-color: rgb(165, 166, 253);
+    color: rgb(255, 255, 255);
+    transition: background-color  3s; 
+}
+
+
+ 
+
+    #home {
+    width: 1280px;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 49px;
+    padding-top: 45px;
+    text-align:center;
+    margin left: 55px;
+
+    }
+
+    #home h2{
+        color: #ffffff;
+        font-family: cambria, bold;
+        font-size: 60px;
+        text-align: center;
+        line-height: 80px;    
+    }
+
+    #home p {
+        color: #5243c4;
+        text-align: center;
+        margin: auto;
+        width: 740px;
+        font-size: 20px; 
+        margin-top: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 30px;
+    }
+
+   
+    
+      
+
+      #foto1 {
+        margin-top: 8px;
+        float:right;
+        margin-right: 65px;
+        margin-block-start: 0px;
+        
+
+    } 
+    #sobre_nosotras {
+        width: 1280px;
+        height: 650px;
+        background-color: rgb(0, 47, 255);
+        margin-top: 8px;
+        padding-top: 25px;
+        text-align:center;
+        margin left: 65px;
+    }
+    
+    #sobre_nosotras h2 {
+        font-size: 70px;
+        color: rgb(0, 0, 0);
+        text-align: left;
+        margin-left: 65px;
+        margin-top: 20px;
+        line-height: 140px;
+        font-family: cambria, bold;
+    }
+
+
+     #sobre_nosotras p {
+        width: 600px;
+        font-size: 25px;
+        color: rgb(255, 255, 255);
+        text-align: left;
+        margin-top: 80px;
+        margin-left: 65px;
+        font-family: Arial, Helvetica, sans-serif;
+        float: left;
+        line-height: 40px;
+    }
+    
+
+
+    
+
+    #servicios {
+        width: 1280px;
+        height: 800px;
+        background-color: #312783;
+        margin-top: 10px;
+        padding-top: 25px;
+        text-align:center;
+    }
+    
+    #servicios h2 {
+        font-size: 70px;
+        color: rgb(165, 166, 253);
+        text-align: center;
+        line-height: 140px;
+        font-family: Cambria , bold ;
+
+    }
+
+              
+    #servicios div {
+        display: inline-block;
+        padding-left: 50px;
+        padding-right: 10px;
+        margin-right: 35px;
+        margin left: 80px;
+        margin-top: 20px;
+
+    }
+
+    #servicios p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+    }
+
+     
+
+    #portfolio {
+        width: 1280px;
+        height: 600px;
+        background-color: rgb(117, 138, 253);
+        padding-top: 25px;
+        text-align:center;
+        margin-top: 10px;
+        
+    }
+    
+    #portfolio h2 {
+        font-size: 70px;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        line-height: 140px;
+        font-family: Cambria , bold ;
+        
+        }
+
+    #portfolio ul {
+        width: 1200;
+        margin: 10px;
+    }
+
+    #portfolio ul li {
+        display: inline-block;
+        margin-right: 40px;
+        margin-top: 5px;
+
+    }
+   
+   
+
+    #contacto {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        background-color: #08007e;
+    
+    }
+    
+    #contacto h2{
+        font-size: 60px;
+        font-family: cambria, bold;
+        text-align: center;
+        color: #05ABA9;
+        
+    }
+   
+
+    .form-consulta {
+        max-width: 500px;
+        background: #0011ff;
+        padding: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 20px auto;
+    }
+    
+    .campo-form {
+        width: 100%;
+        height: 36px;
+        margin: 2px 0 6px;
+        padding-left: 6px;
+        box-sizing: border-box;
+        border-radius: 3px;
+        border: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1em;
+    }
+    
+    label span {
+        color: rgb(0, 247, 255);
+    }
+    
+    textarea {
+        min-height: 150px !important;
+    }
+    
+    .btn-form {
+        display: inline-block;
+        border: 0;
+        background: rgb(74, 241, 247);
+        height: 46px;
+        line-height: 46px;
+        padding: 0 20px;
+        border-radius: 6px;
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 1px
+    }
+    
+    .btn-form:hover {
+        background: rgb(92, 244, 255);
+    }
+    
+    #redes {
+        width: 100px;
+        margin: auto;
+    }
+    
+    #redes li {
+        display: inline-block;
+        border-radius: 50%;
+        text-align: center;
+        
+    }
+    
+    #redes a {
+        color: #05ABA9;
+        width: 100px;
+        height: auto;
+    }
+    
+    address {
+        text-align: center;
+        padding: 25px;
+        font-family: cambria, bold cursive;
+        color: #ffffff;
+    }
+    
+    footer {
+        height: 50px;
+        background-color: #000000;
+    }
+    
+    footer p {
+        text-align: center;
+        line-height: 50px;
+        color: aliceblue;
+    }
+    
+    #boton-subir {
+        width: 40px;
+        height: 40px;
+        background-color: #05ABA9;
+        border-radius: 50%;
+        text-align: center;
+        position: fixed;
+        right: 40px;
+        bottom: 40px;
+    }
+    
+    #boton-subir a {
+        text-decoration: none;
+        line-height: 35px;
+        display: block;
+        color: #3336ff;
+    }
+
+    
